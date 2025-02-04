@@ -23,7 +23,6 @@ linter:
     - avoid_print
     - avoid_redundant_argument_values
     - avoid_returning_this
-    - avoid_returning_null_for_future
     - avoid_setters_without_getters
     - avoid_slow_async_io
     - avoid_type_to_string
