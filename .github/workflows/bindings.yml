@@ -108,7 +108,7 @@ jobs:
           retention-days: 1
 
   build_libgit2_macos:
-    runs-on: macos-11
+    runs-on: macos-latest
     env:
       CC: clang
       CMAKE_OPTIONS: -DREGEX_BACKEND=regcomp_l -DDEPRECATE_HARD=ON  -DBUILD_EXAMPLES=OFF -DUSE_SSH=ON -DUSE_GSSAPI=ON
